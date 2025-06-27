@@ -1,0 +1,84 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7fa;
+  color: #2e2e2e;
+  padding: 30px 15px;
+}
+
+/* Main container */
+.container {
+  max-width: 850px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Section styling */
+.section {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+/* Blog section - text alignment */
+.blog-section {
+  text-align: justify;
+  padding: 0 10px;
+}
+
+/* Images - smaller and consistent */
+.center-image {
+  max-width: 100%;
+  max-height: 220px; /* Reduced from 300px */
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Heading */
+h1 {
+  font-size: 30px;
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+/* Blog post */
+.blog-post {
+  font-size: 18px;
+  color: #444;
+  line-height: 1.8;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  .blog-post {
+    font-size: 16px;
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  .center-image {
+    max-height: 150px;
+  }
+}
+
+p {
+  margin-bottom: 20px; /* Adds space below each paragraph */
+}
